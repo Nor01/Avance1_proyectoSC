@@ -1,0 +1,98 @@
+#mybody{
+    background-color: #f2f7fc!important;
+}
+.topbar-header{
+    background-color: var(--blue-color);
+}
+
+.horizontal-topnav{
+    background: var(--green-color2);
+}
+
+.horizontal-topnav .navbar-nav .nav-link{
+    color: var(--white1-color);
+}
+
+.horizontal-topnav .navbar-nav .dropdown-item:hover, .horizontal-topnav .navbar-nav .dropdown-item:focus {
+    color: var(--white-color1);
+    background: var(--green-color);
+}
+
+.dropdown-item{
+    font-weight: bold;
+}
+
+.text-primary {
+    color: var(--blue-color) !important;
+}
+
+.form-control:focus{
+    border-color: var(--blue-color);
+}
+
+.horizontal-navbar .page-title-box {
+    background-color: #D7F4FE;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: var(--green-color);
+    border-color: var(--green-color);
+}
+
+
+.navbar-expand-lg .navbar-nav{
+    color:var(--white-color1);
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    color: var(--green-color);
+    background-color: transparent;
+    border-color: var(--green-color);
+}
+
+.text-dark {
+    color: #808080 !important;
+}
+
+.col-form-label{
+    color:#000;
+}
+
+label{
+    color:#000;
+}
+
+@media (min-width:992px){
+    .horizontal-topnav .dropdown:hover .nav-link {
+        color: #000;
+    }
+}
+
+/* Contact Form Expertise input
+
+Experiencia debe mostrarme > Otro > escribir otro.05em
+
+Escolaridad debe mostrar:
+
+Pro > Link de sitio web y Redes sociales (linkedin)
+Potsgrado > Maestria o Doctorado (Descripcion de Postgrado)
+Universitario> Pasante o Titulado (Descripcion de Carrera)
+Media> Descripcion de carrera. 
+
+
+*/
+
+/* facebook para las personas:
+
+0501051301
+
+Departamento 0501
+Diputado 50
+Casilla 13
+Municipio SPS 01
+Alcalde 60
+
+Departamento + Diputado + Casilla + AutoIncrement 
+Departamento + Alcalde + Municipio + AutoIncrement */
